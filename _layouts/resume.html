@@ -11,7 +11,8 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+            <!-- Override size to avoid class=avatar-small -->
+            {% avatar antgel size=95 %}
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -76,7 +77,7 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details" itemprop="description"><span style="display: block; float:left;">{{ education.degree }}</span><span style="display: block; float:right;">{{ education.year }}</span></h4>
-          <h5 class="resume-item-details" itemprop="description">{{ education.awards }}</h5>
+          <h5 class="resume-item-details" itemprop="description" style="clear:both">{{ education.awards }}</h5>
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
         {% endfor %}
@@ -109,7 +110,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Skills (highlights)</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
@@ -219,8 +220,8 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+          <p class="footer-line">References available on request.</p>
+          <p class="footer-line">Powered by <a href="https://jekyllrb.com/">Jekyll</a>. Original template by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork the latest version on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
       </footer>
 
     </div>

@@ -1,19 +1,82 @@
 # Jobs
-# Springfield Nuclear Power Plant
-- company: Springfield Nuclear Power Plant
-  position: Safety Inspector
-  duration: Nov, 1980 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>Ate lots of donuts</li><li>Fell asleep rarely</li><li>Left promptly at end of day (sometimes earlier)</li></ul>
+- company: Seeking Alpha
+  position: R&D Director / DevOps Team Leader
+  duration: 2014 &mdash; Present
+  summary: For the world's largest crowd-sourced investment website. Led team with 24/7 responsibility for development, improvement and maintenance of production and staging infrastructure, handling 100m website hits, sending 500m emails and push notifications per month, plus Android and iOS mobile app backends.
+    <ul class="resume-item-list">
+        <li>Product Owner and Agile Scrum Master, big picture planning, hands-on to code level.
+        <li>Led talented, pressurized team from unpleasant firefighting to enjoyable productivity.
+        <li>Improved morale, quickly building mutual loyalty and respect by empowering longest-serving, best developers in company.
+        <li>Migrated server infrastructure from dedicated hosting to AWS cloud, including adoption of configuration management using Puppet.
+        <li>Managed successful CDN migration from legacy (Akamai) to next-gen (Fastly).
+        <li>Prioritized refactoring of legacy code and systems to benefit the wider team velocity.
+        <li>Implemented and improved automation, monitoring and alerting systems, reducing human involvement in routine tasks, providing insight into system behaviour, and improving response to critical situations.
+        <li>Introduced and promoted ChatOps, realtime communication
+        connecting people and tools, made communication more focused and
+        efficient.
+        <li>Nurtured colleagues’ natural creativity and technical interests, becoming a leading influence over wider culture and direction, as a trusted partner to the CTO.
+        <li>Influenced testing culture and good practice across the
+        wider team, reducing bugs and improving quality throughout
+        product.
+        <li>Ongoing positive results led to taking over the CI
+        and BI systems from other teams.
+        <li>Built and maintained strong relationships with valued partners.
+      </ul>
 
-# Windmill Crank Operator
-- company: Sir Putt-A-Lot's Merrie Olde Fun Centre
-  position: Safety Inspector
-  duration:  Jun, 1978 &mdash; Sept, 1979
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: Anan Computing
+  position: Chief Software Architect
+  duration:  2014
+  summary: Responsible for architecture and direction of cloud-based enterprise storage product.
+    <ul class="resume-item-list">
+        <li>End-to-end involvement in frontend, backend, integration, testing.
+        <li>Drove agile test-driven framework development, improved productivity, efficiency.
+        <li>Strong influence and involvement in user experience and user interface design.
+        <li>Employee 4 working with storage domain experts with many years' Valley experience.
+    </ul>
+
+- company: Amdocs
+  position: Innovation Development Expert (CTO Office)
+  duration:  2011 &mdash; 2014
+  summary: Defined and developed interactive demonstrations to illustrate strategic vision, on topics including Big Data, BI / Analytics, NFV / SDN, Cloud, OSS.
+    <ul class="resume-item-list">
+        <li>Responsible for entire process from ideation to development.
+        <li>Promoted culture of modern, agile tools and techniques.
+        <li>Presented vision to customers, management, internal and external stakeholders.
+        <li>Delivered quality results, on time, in high-pressure scenarios.
+        <li>Assisted BizDev team to better understand technical concepts presented by partners.
+        <li>Worked onsite with partner in firefighting period, ensured solution ready by deadline.
+    </ul>
+
+- company: Reask
+  position: CTO
+  duration:  2010 &mdash; 2011
+  summary: Project management, system analysis, software development at startup combining social search and Big Data.
+    <ul class="resume-item-list">
+        <li>Wrote prototype alone, then hired and led global development team.
+        <li>Responsible for feature roadmap, task allocation, code development and integration.
+        <li>Defined feature roadmap in conjunction with product team.
+    </ul>
+
+- company: Wayforth
+  position: Freelance Software and Systems Company Director
+  duration:  2002 &mdash; 2010
+  summary: Eight years of Project management, system analysis, software development, sales and marketing.
+    <ul class="resume-item-list">
+        <li>Developed ePOS with analytics for restaurant chain, handling 100,000s of transactions per year.
+        <li>Designed and built custom information systems, websites, databases, embedded.
+        <li>Improved quality and cut costs by pioneering Open Source migration strategies.
+        <li>Sysadmin and support services, including file and mail servers, firewall, VPN.
+    </ul>
+
+- company: Nortel
+  position: Software Engineer
+  duration:  2000 &mdash; 2002
+  summary: Designed and implemented messaging interface between subsystems in real-time carrier-grade circuit <-> packet VoIP gateway. Responsible for system benchmarking and performance analysis under load, produced influential management information data.
+
+- company: Freelance
+  position: Consultant
+  duration:  1996 &mdash; 2000
+  summary: Whilst at university, various development and system administration projects for small businesses. Included custom sales, marketing, accounting systems.
 
 
-# Front Desk Attendant
-- company: Simpson Lazer Tag
-  position: Front Desk Attendant
-  duration:   Jun, 1975  &mdash; May, 1978
-  summary: Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.
+
